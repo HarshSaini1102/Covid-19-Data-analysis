@@ -12,17 +12,17 @@ import matplotlib.pyplot as plt
 
 #Confirmed cases
 
-confirmed_cases = pd.read_excel(r"C:\Users\Harsh\Downloads\covid_19_dataset-1718175635 (1).xlsx",
+confirmed_cases = pd.read_excel(r"C:\Users\Harsh\Downloads\covid_19_dataset.xlsx",
                               sheet_name='covid_19_confirmed_v1')
 
 #Death cases
 
-death_cases = pd.read_excel(r"C:\Users\Harsh\Downloads\covid_19_dataset-1718175635 (1).xlsx",
+death_cases = pd.read_excel(r"C:\Users\Harsh\Downloads\covid_19_dataset.xlsx",
                             sheet_name='covid_19_deaths_v1')
 
 #Recovered cases 
 
-recovered_cases = pd.read_excel(r"C:\Users\Harsh\Downloads\covid_19_dataset-1718175635 (1).xlsx",
+recovered_cases = pd.read_excel(r"C:\Users\Harsh\Downloads\covid_19_dataset.xlsx",
                                sheet_name='covid_19_recovered_v1')
 
 #structure of datasets
